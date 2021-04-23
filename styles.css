@@ -1,0 +1,40 @@
+#out {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+
+}
+
+img {
+    margin: 10px;
+}
+
+.form, .logo {
+    display: flex;
+    width: 30%;
+    margin-left: 35%;
+    margin-right:20%;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#btnSearch, #btnClear {
+    background-color:#0081C6;
+    border: none;
+    margin: 15px;
+    padding: 15px;
+    font-size: 30px;
+    color: white;
+    
+}
+
+#search {
+  border: none;
+  margin: 15px;
+  padding: 15px;
+  font-size: 30px;
+  color: black;
+  border: 1px solid;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
