@@ -26,7 +26,7 @@ img {
     padding: 15px;
     font-size: 30px;
     color: white;
-    
+    border-radius: 15px;
 }
 
 #search {
@@ -37,4 +37,35 @@ img {
   color: black;
   border: 1px solid;
   box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+@media screen and (max-width: 600px) {
+  .form, .logo {
+    display: flex;
+    width: 70%;
+    margin-left: 15%;
+    margin-right:15%;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+  #btnSearch, #btnClear {
+    background-color:#0081C6;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    color: white;
+    border-radius: 15px;
+}
+
+#search {
+  border: none;
+  margin: 15px;
+  padding: 15px;
+  font-size: 30px;
+  color: black;
+  border: 1px solid;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
 }
